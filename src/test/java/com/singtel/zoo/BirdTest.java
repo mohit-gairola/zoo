@@ -8,6 +8,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.singtel.zoo.animals.Bird;
+import com.singtel.zoo.animals.Chicken;
+import com.singtel.zoo.animals.Duck;
+
 public class BirdTest {
 	Bird bird;
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();

@@ -1,10 +1,10 @@
-package com.singtel.zoo;
+package com.singtel.zoo.animals;
 
 public class Clownfish extends Fish {
 
-	Clownfish() {
+	public Clownfish() {
 		size = Size.SMALL;
 		color = Color.ORANGE;
-		joker=true;
+		joker = true;
 	}
 }

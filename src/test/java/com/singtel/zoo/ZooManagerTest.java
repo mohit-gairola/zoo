@@ -7,6 +7,19 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.singtel.zoo.ZooManager.AnimalType;
+import com.singtel.zoo.animals.Animal;
+import com.singtel.zoo.animals.Butterfly;
+import com.singtel.zoo.animals.Cat;
+import com.singtel.zoo.animals.Chicken;
+import com.singtel.zoo.animals.Clownfish;
+import com.singtel.zoo.animals.Dog;
+import com.singtel.zoo.animals.Dolphin;
+import com.singtel.zoo.animals.Duck;
+import com.singtel.zoo.animals.Fish;
+import com.singtel.zoo.animals.Frog;
+import com.singtel.zoo.animals.Parrot;
+import com.singtel.zoo.animals.Rooster;
+import com.singtel.zoo.animals.Shark;
 
 public class ZooManagerTest {
 

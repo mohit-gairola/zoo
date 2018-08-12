@@ -1,4 +1,4 @@
-package com.singtel.zoo;
+package com.singtel.zoo.animals;
 
 public abstract class Bird extends Animal implements Walker, Singer {
 

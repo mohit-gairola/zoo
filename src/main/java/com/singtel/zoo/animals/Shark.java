@@ -1,10 +1,10 @@
-package com.singtel.zoo;
+package com.singtel.zoo.animals;
 
 public class Shark extends Fish {
 
-	Shark() {
+	public Shark() {
 		size = Size.LARGE;
 		color = Color.GREY;
-		predator=true;
+		predator = true;
 	}
 }

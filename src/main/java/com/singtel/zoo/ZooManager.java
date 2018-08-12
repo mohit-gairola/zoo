@@ -6,6 +6,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import com.singtel.zoo.animals.Animal;
+import com.singtel.zoo.animals.Flyer;
+import com.singtel.zoo.animals.Singer;
+import com.singtel.zoo.animals.Swimmer;
+import com.singtel.zoo.animals.Walker;
+
 public class ZooManager {
 
 	enum AnimalType {

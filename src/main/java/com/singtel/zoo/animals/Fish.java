@@ -1,4 +1,4 @@
-package com.singtel.zoo;
+package com.singtel.zoo.animals;
 
 public class Fish extends Animal implements Swimmer {
 

@@ -1,4 +1,4 @@
-package com.singtel.zoo;
+package com.singtel.zoo.animals;
 
 public class Butterfly extends Animal implements Flyer {
 
@@ -6,11 +6,11 @@ public class Butterfly extends Animal implements Flyer {
 
 	private Caterpillar caterpillar;
 
-	Butterfly(Caterpillar caterpillar) {
+	public Butterfly(Caterpillar caterpillar) {
 		this.caterpillar = caterpillar;
 	}
 
-	Butterfly(String name) {
+	public Butterfly(String name) {
 		this.name = name;
 	}
 

@@ -1,4 +1,4 @@
-package com.singtel.zoo;
+package com.singtel.zoo.animals;
 
 public class Frog extends Animal implements Swimmer,Walker,Singer {
 
