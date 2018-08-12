@@ -1,4 +1,4 @@
-package com.singtel.zoo;
+package com.singtel.zoo.service;
 
 import java.util.Map;
 
@@ -6,7 +6,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.singtel.zoo.ZooManager.AnimalType;
 import com.singtel.zoo.animals.Animal;
 import com.singtel.zoo.animals.Butterfly;
 import com.singtel.zoo.animals.Cat;
@@ -20,14 +19,16 @@ import com.singtel.zoo.animals.Frog;
 import com.singtel.zoo.animals.Parrot;
 import com.singtel.zoo.animals.Rooster;
 import com.singtel.zoo.animals.Shark;
+import com.singtel.zoo.service.ZooManagerService;
+import com.singtel.zoo.service.ZooManagerService.AnimalType;
 
-public class ZooManagerTest {
+public class ZooManagerServiceTest {
 
-	ZooManager zooManager;
+	ZooManagerService zooManager;
 
 	@Before
 	public void setUp() {
-		zooManager = new ZooManager();
+		zooManager = new ZooManagerService();
 	}
 
 	@Test

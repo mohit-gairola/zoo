@@ -1,4 +1,4 @@
-package com.singtel.zoo;
+package com.singtel.zoo.service;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -12,9 +12,10 @@ import com.singtel.zoo.animals.Singer;
 import com.singtel.zoo.animals.Swimmer;
 import com.singtel.zoo.animals.Walker;
 
-public class ZooManager {
+public class ZooManagerService {
 
-	enum AnimalType {
+	
+	public enum AnimalType {
 		FLYER, WALKER, SWIMMER, SINGER;
 	}
 

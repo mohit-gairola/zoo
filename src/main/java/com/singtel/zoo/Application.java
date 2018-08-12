@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Bean;
 
 import com.singtel.zoo.animals.Rooster;
 import com.singtel.zoo.config.Message;
+import com.singtel.zoo.service.ZooManagerService;
 
 @SpringBootApplication
 public class Application {
@@ -22,13 +23,18 @@ public class Application {
 	}
 
 	@Bean
-	public Rooster getRooster() {
+	public Rooster rooster() {
 		return new Rooster();
 	}
 
 	@Bean
-	public Message getMessage() {
+	public Message message() {
 		return new Message();
+	}
+
+	@Bean
+	public ZooManagerService zooManagerService() {
+		return new ZooManagerService();
 	}
 
 }

@@ -2,7 +2,6 @@ package com.singtel.zoo;
 
 import java.util.Map;
 
-import com.singtel.zoo.ZooManager.AnimalType;
 import com.singtel.zoo.animals.Animal;
 import com.singtel.zoo.animals.Butterfly;
 import com.singtel.zoo.animals.Cat;
@@ -16,6 +15,8 @@ import com.singtel.zoo.animals.Frog;
 import com.singtel.zoo.animals.Parrot;
 import com.singtel.zoo.animals.Rooster;
 import com.singtel.zoo.animals.Shark;
+import com.singtel.zoo.service.ZooManagerService;
+import com.singtel.zoo.service.ZooManagerService.AnimalType;
 
 public class Solution {
 
@@ -35,7 +36,7 @@ public class Solution {
 		parrotLivingWithRooster.sing();
 
 		//To count how many animals can swim,sing,walk and fly
-		ZooManager zooManager = new ZooManager();
+		ZooManagerService zooManager = new ZooManagerService();
 		Animal[] animals = new Animal[] { new Duck(), new Chicken(), new Rooster(), new Parrot<Dog>(new Dog()),
 				new Fish(), new Shark(), new Clownfish(), new Dolphin(), new Frog(), new Dog(), new Butterfly("Rosy"),
 				new Cat() };
